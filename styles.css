@@ -49,3 +49,63 @@
     background-color: #ffffff55; /* Semi-transparent white for hover effect */
     border-radius: 5px;
   }
+
+.mid-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #f9f9f9; /* Light background for contrast */
+  }
+  
+  .client-image {
+    width: 100%;
+    max-width: 800px; /* Adjust the maximum width to control image size */
+    height: auto; /* Maintain image aspect ratio */
+    border-radius: 10px; /* Optional: add rounded corners for a modern look */
+  }
+  
+  .who-are-we {
+    text-align: center;       /* Center-align the content */
+    padding: 50px 20px;       /* Add padding to give space around the text */
+    background-color: #fff;   /* Background color (adjust as needed) */
+  }
+  
+  .who-are-we h2 {
+    font-size: 36px;          /* Large font size for the heading */
+    font-weight: bold;        /* Bold font weight */
+    margin-bottom: 20px;      /* Space below the heading */
+    text-transform: uppercase;/* Make the heading uppercase */
+  }
+  
+  .who-are-we p {
+    font-size: 18px;          /* Moderate font size for the paragraph */
+    max-width: 700px;         /* Limit the width of the text for readability */
+    margin: 0 auto;           /* Center the paragraph within the section */
+    line-height: 1.6;         /* Improve readability with line spacing */
+  }
+  
+  .footer {
+    background-color: #ffb6c1; /* Light pink background */
+    color: #fff;              /* White text */
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer h2 {
+    font-size: 36px;  /* Matches "WHO AM I?" font size */
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif; /* Ensure consistent font family */
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;  /* Space between social media images */
+  }
+  
+  .social-icons img {
+    width: 50px;
+    height: 50px;
+  }
+  
