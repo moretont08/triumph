@@ -22,4 +22,31 @@
       </ul>
     </nav>
   </header>
+ <div class="mid-section">
+    <img src="chloeworkingonclient.png" alt="Chloe working with client" class="client-image">
+  </div>
+  <section class="who-are-we">
+    <h2>WHO AM I?</h2>
+    <p>Hi, I'm Chloe, the heart behind Chloe’s Bridal Services! My passion is helping brides feel confident, radiant, and stress-free on one of the most important days of their lives.
+
+      With years of experience in bridal styling, I specialize in creating personalized looks that reflect your unique vision. From finding the perfect dress to coordinating every detail of your wedding-day styling, I’m here to ensure you feel absolutely stunning.
+      
+      I believe every bride deserves to shine, and I take pride in offering a friendly, professional service that puts you first. Whether you’re dreaming of classic elegance or a modern twist, I’m dedicated to making your journey to the aisle as magical as the day itself.
+      
+      Let’s make your bridal dreams come true—together!
+      
+      </p>
+  </section>
+  
+  <footer class="footer">
+    <h2>FOLLOW US ON SOCIALS</h2>
+    <div class="social-icons">
+      <img src="instagram-logo.png" alt="Instagram" width="50">
+      <img src="pinterest-logo.png" alt="Pinterest" width="50">
+      <img src="x-logo.png" alt="X" width="50">
+      <img src="facebook-logo.png" alt="Facebook" width="50">
+    </div>
+  </footer>
+  
+  </body>
   </body>
