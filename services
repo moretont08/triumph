@@ -1,1 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chloe's Bridal Services - Services</title>
+  <link rel="stylesheet" href="services.css">
+</head>
+<body>
 
+  <!-- Header -->
+  <header>
+    <div class="top-banner">
+      <span>GET 10% OFF!!!</span>
+    </div>
+    <nav>
+      <div class="logo">
+        <img src="logo.png" alt="Website Logo">
+      </div>
+      <ul class="nav-links">
+        <li><a href="homepage.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="about.html">About Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="wedding-services">
+    <div class="services-content">
+      <h2>OUR WEDDING SERVICES</h2>
+      <p>Explore our wide range of wedding makeup packages to make you feel beautiful on your special day.</p>
+    </div>
+    <div class="services-image">
+      <img src="services-image.png" alt="Wedding services image">
+    </div>
+  </section>
+  
+  <section class="services-packages">
+    <div class="service-item">
+      <img src="hair-makeup-combo.png" alt="Hair and Makeup Combo">
+      <p class="service-description">TEXT ABOUT HER HAIR AND MAKEUP COMBO</p>
+      <p class="price">£300</p>
+    </div>
+  
+    <div class="service-item">
+      <img src="hair-only-package.png" alt="Hair Only Package">
+      <p class="service-description">TEXT ABOUT HER HAIR ONLY PACKAGE</p>
+      <p class="price">PRICE</p>
+    </div>
+  
+    <div class="service-item">
+      <img src="makeup-only-package.png" alt="Makeup Only Package">
+      <p class="service-description">TEXT ABOUT HER MAKEUP ONLY PACKAGE</p>
+      <p class="price">PRICE</p>
+    </div>
+  </section>
+  
+</body>
