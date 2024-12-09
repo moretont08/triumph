@@ -1,4 +1,4 @@
- /* General Reset */
+   /* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -101,7 +101,7 @@
   }
   
   .service-item {
-    width: 250px;       /* Fixed width for each service item */
+    width: 300px;       /* Fixed width for each service item */
     background-color: #f9f9f9; /* Light background for each item */
     padding: 20px;
     border-radius: 10px;      /* Rounded corners for a modern look */
@@ -124,5 +124,52 @@
     font-size: 18px;
     font-weight: bold;
     color:#d63384; /* Pink color to match your theme */
+  }
+  
+  .wedding-services {
+    position: relative;
+    height: 425px; /* Adjust the height as needed */
+    color: white;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-image: url('your-background-image.jpg'); /* Add your image path here */
+    background-size: cover;    /* Make the image cover the entire section */
+    background-position: center;
+    background-attachment: fixed; /* Parallax effect */
+  }
+  
+  .wedding-services::before {
+    position:relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+  .footer {
+    background-color: #ffb6c1; /* Light pink background */
+    color: #fff;              /* White text */
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer h2 {
+    font-size: 36px;  /* Matches "WHO AM I?" font size */
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif; /* Ensure consistent font family */
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;  /* Space between social media images */
+  }
+  
+  .social-icons img {
+    width: 50px;
+    height: 50px;
   }
   
