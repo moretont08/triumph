@@ -49,8 +49,8 @@
     background-color: #ffffff55; /* Semi-transparent white for hover effect */
     border-radius: 5px;
   }
-
-.mid-section {
+  
+  .mid-section {
     display: flex;
     justify-content: center;
     align-items: center;
