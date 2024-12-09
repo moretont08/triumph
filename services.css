@@ -1,0 +1,128 @@
+ /* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: rgba(255, 192, 203, 0.933); /* Header background color */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .top-banner {
+    font-size: 1.5em; /* Bigger font size for "GET 10% OFF" */
+    font-weight: bold;
+    padding: 10px;
+    text-align: right;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo img {
+    width: 150px; /* Adjust logo size */
+    height: 150px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    background-color: #ffffff55; /* Semi-transparent white for hover effect */
+    border-radius: 5px;
+  }
+  
+  .mid-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #f9f9f9; /* Light background for contrast */
+  }
+
+  .wedding-services {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #fff; /* White background or adjust as needed */
+    margin: 20px 0;
+  }
+  
+  .services-content {
+    max-width: 60%;
+  }
+  
+  .services-content h2 {
+    font-size: 36px; /* Same large font size used previously */
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  .services-content p {
+    font-size: 16px; /* Normal text size */
+    line-height: 1.5;
+  }
+  
+  .services-image {
+    max-width: 23%;
+  }
+  
+  .services-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .services-packages {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;          /* Adds space between the items */
+    padding: 40px 20px; /* Padding for top/bottom and left/right */
+    text-align: center; /* Centers the text for each item */
+  }
+  
+  .service-item {
+    width: 250px;       /* Fixed width for each service item */
+    background-color: #f9f9f9; /* Light background for each item */
+    padding: 20px;
+    border-radius: 10px;      /* Rounded corners for a modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  }
+  
+  .service-item img {
+    width: 100px;       /* Image size adjustment */
+    height: auto;
+    margin-bottom: 15px; /* Adds space between image and text */
+  }
+  
+  .service-description {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .price {
+    font-size: 18px;
+    font-weight: bold;
+    color:#d63384; /* Pink color to match your theme */
+  }
+  
