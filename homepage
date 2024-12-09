@@ -22,7 +22,7 @@
       </ul>
     </nav>
   </header>
- <div class="mid-section">
+  <div class="mid-section">
     <img src="chloeworkingonclient.png" alt="Chloe working with client" class="client-image">
   </div>
   <section class="who-are-we">
@@ -47,6 +47,5 @@
       <img src="facebook-logo.png" alt="Facebook" width="50">
     </div>
   </footer>
-  
-  </body>
+ 
   </body>
