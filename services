@@ -26,34 +26,43 @@
     </nav>
   </header>
 
+
   <section class="wedding-services">
     <div class="services-content">
       <h2>OUR WEDDING SERVICES</h2>
       <p>Explore our wide range of wedding makeup packages to make you feel beautiful on your special day.</p>
     </div>
-    <div class="services-image">
-      <img src="services-image.png" alt="Wedding services image">
-    </div>
+    
   </section>
+  
   
   <section class="services-packages">
     <div class="service-item">
       <img src="hair-makeup-combo.png" alt="Hair and Makeup Combo">
-      <p class="service-description">TEXT ABOUT HER HAIR AND MAKEUP COMBO</p>
+      <p class="service-description"> This package includes a personalized consultation to discuss your preferred styles and wedding theme. For hair, you can choose from a variety of styles, including elegant updos, soft waves, curls, or intricate braids, with professional-grade products to maintain hold and shine. Accessories like veils, tiaras, or decorative pins (provided by you) can be incorporated seamlessly to complete your look.</p>
       <p class="price">£300</p>
     </div>
   
     <div class="service-item">
       <img src="hair-only-package.png" alt="Hair Only Package">
-      <p class="service-description">TEXT ABOUT HER HAIR ONLY PACKAGE</p>
+      <p class="service-description">Our Hair Only Package offers personalized styling to match your wedding vision. After a consultation to discuss your preferences, choose from a range of styles such as elegant updos, soft waves, romantic curls, or intricate braids. Your hair will be styled with professional-grade products to ensure hold, shine, and durability throughout the day. Accessories like veils, tiaras, or decorative pins (provided by you) can be seamlessly incorporated to complete your look. This package is designed to give you a stunning, cohesive style that complements your natural beauty.</p>
       <p class="price">PRICE</p>
     </div>
   
     <div class="service-item">
       <img src="makeup-only-package.png" alt="Makeup Only Package">
-      <p class="service-description">TEXT ABOUT HER MAKEUP ONLY PACKAGE</p>
+      <p class="service-description">Our Makeup Only Package offers a tailored makeup experience to make you look and feel your best on your special day. After a personalized consultation to discuss your preferences and wedding theme, we create a look that matches your skin tone and desired style — whether you want a natural, radiant glow or a glamorous, full-coverage finish. High-quality, long-lasting products are used to ensure your makeup remains flawless throughout the event. This package is designed to enhance your natural features, giving you confidence and a picture-perfect look that lasts all day.</p>
       <p class="price">PRICE</p>
     </div>
   </section>
   
+  <footer class="footer"></footer>
+    <h2>FOLLOW US ON SOCIALS</h2>
+    <div class="social-icons">
+      <img src="instagram-logo.png" alt="Instagram" width="50">
+      <img src="pinterest-logo.png" alt="Pinterest" width="50">
+      <img src="x-logo.png" alt="X" width="50">
+      <img src="facebook-logo.png" alt="Facebook" width="50">
+    </div>
+  </footer>
 </body>
