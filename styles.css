@@ -6,7 +6,7 @@
   }
   
   header {
-    background-color: rgba(255, 192, 203, 0.933); /* Header background color */
+    background-color: #ff66b2; /* Header background color */
     color: white;
     padding: 20px;
     text-align: center;
@@ -50,43 +50,72 @@
     border-radius: 5px;
   }
   
-  .mid-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 0;
-    background-color: #f9f9f9; /* Light background for contrast */
-  }
-  
-  .client-image {
-    width: 100%;
-    max-width: 800px; /* Adjust the maximum width to control image size */
-    height: auto; /* Maintain image aspect ratio */
-    border-radius: 10px; /* Optional: add rounded corners for a modern look */
-  }
-  
-  .who-are-we {
-    text-align: center;       /* Center-align the content */
-    padding: 50px 20px;       /* Add padding to give space around the text */
-    background-color: #fff;   /* Background color (adjust as needed) */
-  }
-  
-  .who-are-we h2 {
-    font-size: 36px;          /* Large font size for the heading */
-    font-weight: bold;        /* Bold font weight */
-    margin-bottom: 20px;      /* Space below the heading */
-    text-transform: uppercase;/* Make the heading uppercase */
-  }
-  
-  .who-are-we p {
-    font-size: 18px;          /* Moderate font size for the paragraph */
-    max-width: 700px;         /* Limit the width of the text for readability */
-    margin: 0 auto;           /* Center the paragraph within the section */
-    line-height: 1.6;         /* Improve readability with line spacing */
-  }
-  
+ /* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fde7ec; /* Light pink background */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero Section */
+.hero {
+  background: url('hero-image.jpg') no-repeat center center/cover;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 18px;
+}
+
+.hero-image {
+  width: 600px;  /* Fixed width */
+  height: 300px; /* Fixed height */
+  object-fit: cover; /* Ensures the image covers the area while maintaining aspect ratio */
+}
+
+
+/* About Section with Image */
+.about-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.client-image {
+  width: 100%; /* Fixed width */
+  height: auto; /* Fixed height */
+  border-radius: 10px; /* Optional: Adds rounded corners to the image */
+}
+
+/* Call to Action Button */
+.cta {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.cta-button {
+  background-color: #f06292; /* Pink Button */
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.cta-button:hover {
+  background-color: #e91e63;
+}
+
   .footer {
-    background-color: #ffb6c1; /* Light pink background */
+    background-color: #ff66b2; /* Pink background */
     color: #fff;              /* White text */
     text-align: center;
     padding: 20px 0;
