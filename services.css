@@ -50,126 +50,117 @@
     border-radius: 5px;
   }
   
-  .mid-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 0;
-    background-color: #f9f9f9; /* Light background for contrast */
-  }
+ /* General Page Styling */
+body {
+  font-family: 'Arial, sans-serif';
+  background-color: #fdf0f5; /* Light pink background */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
 
-  .wedding-services {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px;
-    background-color: #fff; /* White background or adjust as needed */
-    margin: 20px 0;
-  }
-  
-  .services-content {
-    max-width: 60%;
-  }
-  
-  .services-content h2 {
-    font-size: 36px; /* Same large font size used previously */
-    font-weight: bold;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-  }
-  
-  .services-content p {
-    font-size: 16px; /* Normal text size */
-    line-height: 1.5;
-  }
-  
-  .services-image {
-    max-width: 23%;
-  }
-  
-  .services-image img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .services-packages {
-    display: flex;
-    justify-content: space-around;
-    gap: 20px;          /* Adds space between the items */
-    padding: 40px 20px; /* Padding for top/bottom and left/right */
-    text-align: center; /* Centers the text for each item */
-  }
-  
-  .service-item {
-    width: 300px;       /* Fixed width for each service item */
-    background-color: #f9f9f9; /* Light background for each item */
-    padding: 20px;
-    border-radius: 10px;      /* Rounded corners for a modern look */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
-  }
-  
-  .service-item img {
-    width: 100px;       /* Image size adjustment */
-    height: auto;
-    margin-bottom: 15px; /* Adds space between image and text */
-  }
-  
-  .service-description {
-    font-size: 16px;
-    margin-bottom: 10px;
-    color: #333;
-  }
-  
-  .price {
-    font-size: 18px;
-    font-weight: bold;
-    color:#d63384; /* Pink color to match your theme */
-  }
-  
-  .wedding-services {
-    position: relative;
-    height: 425px; /* Adjust the height as needed */
-    color: white;
-    text-align: left;
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    background-image: url('your-background-image.jpg'); /* Add your image path here */
-    background-size: cover;    /* Make the image cover the entire section */
-    background-position: center;
-    background-attachment: fixed; /* Parallax effect */
-  }
-  
-  .wedding-services::before {
-    position:relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    
-  }
-  
-  .footer {
-    background-color: #ffb6c1; /* Light pink background */
-    color: #fff;              /* White text */
-    text-align: center;
-    padding: 20px 0;
-  }
-  
-  .footer h2 {
-    font-size: 36px;  /* Matches "WHO AM I?" font size */
-    margin-bottom: 20px;
-    font-family: 'Arial', sans-serif; /* Ensure consistent font family */
-  }
-  
-  .social-icons {
-    display: flex;
-    justify-content: center;
-    gap: 30px;  /* Space between social media images */
-  }
-  
-  .social-icons img {
-    width: 50px;
-    height: 50px;
-  }
+/* Hero Section Styling */
+.hero-section {
+  background-image: url('hero-wedding.jpg'); /* Replace with your image filename */
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  color: white;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); /* Overlay for readability */
+  z-index: 1;
+}
+
+.hero-text {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Services Section */
+.services-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 40px 20px;
+}
+
+.service {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  overflow: hidden;
+}
+
+.service img {
+  width: 40%;
+  object-fit: cover;
+}
+
+.service-info {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.service-info h2 {
+  font-size: 24px;
+  color: #ff66b2; /* Thematic pink */
+  margin-bottom: 10px;
+}
+
+.service-info p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.price {
+  font-weight: bold;
+  color: #ff66b2; /* Pink price */
+}
+
+.book-btn {
+  display: inline-block;
+  background-color: #ff66b2;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.book-btn:hover {
+  background-color: #e0559d; /* Slightly darker pink on hover */
+}
+
   
