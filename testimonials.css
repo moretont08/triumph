@@ -1,0 +1,165 @@
+/* General Reset */
+
+body {
+    background-color: #fce4ec; /* Light pink background */
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .testimonial-box {
+    background-color: #fff;
+    border: 1px solid #f8bbd0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #ff66b2; /* Header background color */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .top-banner {
+    font-size: 1.5em; /* Bigger font size for "GET 10% OFF" */
+    font-weight: bold;
+    padding: 10px;
+    text-align: right;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo img {
+    width: 150px; /* Adjust logo size */
+    height: 150px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    background-color: #ffffff55; /* Semi-transparent white for hover effect */
+    border-radius: 5px;
+  }
+  
+  /* Testimonials Section Styling */
+.section-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 30px 0;
+}
+
+/* Container for each testimonial */
+.testimonial {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+}
+
+/* Image Styling */
+.testimonial img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%; /* Circular images for a professional touch */
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+
+/* Text Styling */
+.testimonial p {
+    font-size: 16px;
+    color: #333;
+    max-width: 500px;
+}
+
+/* Hover Effect */
+.testimonial img:hover {
+    transform: scale(1.05); /* Slight zoom on hover for interactivity */
+}
+
+.review-button-container {
+    text-align: center;
+    margin: 30px 0;
+  }
+  
+  .leave-review-button {
+    display: inline-block;
+    background-color: #ff66b2; /* Pink background */
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .leave-review-button:hover {
+    background-color: #e0559a; /* Slightly darker pink on hover */
+  }
+  
+  .footer {
+    background-color: #ff66b2; /* Pink background */
+    color: #fff;              /* White text */
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer h2 {
+    font-size: 36px;  /* Matches "WHO AM I?" font size */
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif; /* Ensure consistent font family */
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;  /* Space between social media images */
+  }
+  
+  .social-icons img {
+    width: 50px;
+    height: 50px;
+  }
