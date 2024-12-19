@@ -1,146 +1,157 @@
 /* General Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  header {
-    background-color: #ff66b2; /* Header background color */
-    color: white;
-    padding: 20px;
-    text-align: center;
-    min-height: 60px; /* Ensure header has a minimum height */
-    width: 100%;
-  }
-  
-  .top-banner {
-    font-size: 1.5em; /* Bigger font size for "GET 10% OFF" */
-    font-weight: bold;
-    padding: 10px;
-    text-align: right;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    flex-wrap: wrap; /* Allows items to wrap to the next line if needed */
-  }
-  
-  .logo img {
-    width: 150px; /* Adjust logo size */
-    height: 150px;
-  }
-  
-  .nav-links {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-  }
-  
-  .nav-links a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    padding: 5px 10px;
-    font-size: 1rem; /* Responsive font size */
-    transition: background-color 0.3s;
-  }
-  
-  
-  .nav-links a:hover {
-    background-color: #ffffff55; /* Semi-transparent white for hover effect */
-    border-radius: 5px;
-  }
-  
- /* General Styles */
-body {
-  font-family: Arial, sans-serif;
-  background-color: #fde7ec; /* Light pink background */
-  color: #333;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #ff66b2; /* Header background color */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  min-height: 60px; /* Ensure header has a minimum height */
+  width: 100%;
+}
+
+.top-banner {
+  font-size: 1.5em; /* Bigger font size for "GET 10% OFF" */
+  font-weight: bold;
+  padding: 10px;
+  text-align: right;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  flex-wrap: wrap; /* Allows items to wrap to the next line if needed */
+}
+
+.logo img {
+  width: 150px; /* Adjust logo size */
+  height: 150px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  font-size: 1rem; /* Responsive font size */
+  transition: background-color 0.3s;
+}
+
+
+.nav-links a:hover {
+  background-color: #ffffff55; /* Semi-transparent white for hover effect */
+  border-radius: 5px;
+}
+
+/* General Styles */
+body {
+font-family: Arial, sans-serif;
+background-color: #fde7ec; /* Light pink background */
+color: #333;
+margin: 10;
+padding: 10;
 }
 
 /* Hero Section */
 .hero {
-  background: url('hero-image.jpg') no-repeat center center/cover;
-  color: #8B3A62;
-  padding: 100px 0;
-  text-align: center;
+background: url('hero-image.jpg') no-repeat center center/cover;
+color: #8B3A62;
+padding: 100px 0;
+text-align: center;
 }
 
 .hero-content h1 {
-  font-size: 36px;
-  margin-bottom: 10px;
+font-size: 36px;
+margin-bottom: 10px;
 }
 
 .hero-content p {
-  font-size: 18px;
+font-size: 18px;
 }
 
 .hero-image {
-  width: 600px;  /* Fixed width */
-  height: 300px; /* Fixed height */
-  object-fit: cover; /* Ensures the image covers the area while maintaining aspect ratio */
+width: 600px;  /* Fixed width */
+height: 300px; /* Fixed height */
+object-fit: cover; /* Ensures the image covers the area while maintaining aspect ratio */
 }
 
 
 /* About Section with Image */
 .about-section {
-  padding: 50px 20px;
-  text-align: center;
+padding: 50px 20px;
+text-align: center;
 }
 
 .client-image {
-  width: 100%; /* Fixed width */
-  height: auto; /* Fixed height */
-  border-radius: 10px; /* Optional: Adds rounded corners to the image */
+width: 100%; /* Fixed width */
+height: auto; /* Fixed height */
+border-radius: 10px; /* Optional: Adds rounded corners to the image */
 }
 
 /* Call to Action Button */
 .cta {
-  text-align: center;
-  margin: 40px 0;
+text-align: center;
+margin: 40px 0;
 }
 
 .cta-button {
-  background-color: #f06292; /* Pink Button */
-  color: #fff;
-  padding: 12px 24px;
-  text-decoration: none;
-  border-radius: 5px;
-  font-size: 18px;
+background-color: #f06292; /* Pink Button */
+color: #fff;
+padding: 12px 24px;
+text-decoration: none;
+border-radius: 5px;
+font-size: 18px;
 }
 
 .cta-button:hover {
-  background-color: #e91e63;
+background-color: #e91e63;
 }
 
-  .footer {
-    background-color: #ff66b2; /* Pink background */
-    color: #fff;              /* White text */
-    text-align: center;
-    padding: 20px 0;
-  }
-  
-  .footer h2 {
-    font-size: 36px;  /* Matches "WHO AM I?" font size */
-    margin-bottom: 20px;
-    font-family: 'Arial', sans-serif; /* Ensure consistent font family */
-  }
-  
-  .social-icons {
-    display: flex;
-    justify-content: center;
-    gap: 30px;  /* Space between social media images */
-  }
-  
-  .social-icons img {
-    width: 50px;
-    height: 50px;
-  }
-  
- 
+.footer {
+  background-color: #ff66b2; /* Pink background */
+  color: #fff;              /* White text */
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer h2 {
+  font-size: 36px;  /* Matches "WHO AM I?" font size */
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif; /* Ensure consistent font family */
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;  /* Space between social media images */
+}
+
+.social-icons img {
+  width: 50px;
+  height: 50px;
+}
+
+.about-card {
+  background-color: #fff;
+  border: 2px solid #ff66b2;
+  border-radius: 10px;
+  padding: 50px;
+  margin: 50px auto;
+  max-width: 700px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #8B3A62;
+  max-width: fit-content;
+}
