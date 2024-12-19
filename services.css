@@ -1,4 +1,4 @@
-   /* General Reset */
+ /* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +6,8 @@
   }
   
   header {
-    background-color: rgba(255, 192, 203, 0.933); /* Header background color */
+  background-color: #ff66b2; /* Pink background */
+ 
     color: white;
     padding: 20px;
     text-align: center;
@@ -61,7 +62,7 @@ body {
 
 /* Hero Section Styling */
 .hero-section {
-  background-image: url('hero-wedding.jpg'); /* Replace with your image filename */
+  background-image: url('/images/hero-wedding.jpg'); /* Replace with your image filename */
   background-size: cover;
   background-position: center;
   height: 300px;
@@ -80,7 +81,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.4); /* Overlay for readability */
+  background: #00000066; /* Overlay for readability */
   z-index: 1;
 }
 
@@ -114,7 +115,7 @@ body {
   flex-direction: row;
   background-color: #fff;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px #0000001a;
   max-width: 800px;
   overflow: hidden;
 }
@@ -162,5 +163,32 @@ body {
 .book-btn:hover {
   background-color: #e0559d; /* Slightly darker pink on hover */
 }
+
+
+.footer {
+  background-color: #ff66b2; /* Pink background */
+  color: #fff;              /* White text */
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer h2 {
+  font-size: 36px;  /* Matches "WHO AM I?" font size */
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif; /* Ensure consistent font family */
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;  /* Space between social media images */
+}
+
+.social-icons img {
+  width: 50px;
+  height: 50px;
+}
+
+
 
   
